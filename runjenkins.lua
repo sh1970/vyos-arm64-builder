@@ -45,7 +45,7 @@ while hasnextpackage do
 		if (scmcommit:find("^%x+") ~= nil) then
 			package_clone_success = utils.execute("git clone " .. scmurl .. " " .. packagename .. " && cd " .. packagename .. " && git reset --hard " .. scmcommit)
 		else
-			local git_clone_command = "git clone --depth=1 --branch='" .. scmcommit .. "' " .. scmurl .. " "  .. packagename
+			local git_clone_command = "git clone --recurse --branch='" .. scmcommit .. "' " .. scmurl .. " "  .. packagename
 			print(git_clone_command)
 			package_clone_success = utils.execute(git_clone_command)
 		end

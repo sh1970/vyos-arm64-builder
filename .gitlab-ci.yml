@@ -1,9 +1,9 @@
 build:
     stage: build
     tags:
-        - arm64
+        - amd64
         - dynamic
-        - dynamic_runner_arm64_aws_shell
+        - dynamic_runner_amd64_aws_shell
     script:
         - sudo ./build.sh
     artifacts:
