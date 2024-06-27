@@ -18,7 +18,7 @@ pwd
 if [ ! -d "vyos-build" ]; then
 	echo "Warning: No vyos-build found, git clone vyos-build"
 	pwd
-	git clone --branch 1.4.0 --single-branch https://github.com/vyos/vyos-build
+	git clone --branch shixunet-1.3.8 --single-branch https://github.com/vyos/vyos-build
 	#git config --global --add safe.directory $(readlink -f "vyos-build")
 fi
 
