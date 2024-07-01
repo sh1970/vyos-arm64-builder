@@ -7,8 +7,8 @@ PATCHES_DIR=$(readlink -f "${BASEDIR}/patches")
 #sudo apt-get install -y clang llvm libpcap-dev xz-utils python-is-python3 libbpf-dev linux-libc-dev
 #sudo apt-get install -y lua5.3 lua5.3-dev luarocks libpcre2-dev gem ruby openvpn golang
 #sudo apt install libpam-tacplus-build-deps autoconf build-essential libtool automake libpam-dev libssl-dev gnulib
-#sudo apt install bumpversion pipenv yq gnupg2 nasm debmake linux-headers-6.1.0-15-amd64
-#sudo luarocks install penlight
+#sudo apt install bumpversion pipenv yq gnupg2 nasm debmake linux-headers-6.1.0-15-amd64 libc-ares-dev libyang2-dev
+#sudo luarocks install penlight rdfind libatm1-dev libdb-dev
 #sudo gem install fpm
 #sudo pip install debmake
 
